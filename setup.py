@@ -1,14 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='dima_yablonovskyi_reverse_words_package',
+    name='lab10_reverse_words_package',
     version='0.1',
     packages=find_packages(),
     test_suite='tests',
     description='A package for reversing letters in words while preserving the position of special symbols and numbers.',
     author='Dmytro Yablonovskyi',
     author_email='yablonovskydmutro1@gmail.com',
-    long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/yablonovskydima/word_reverser',
     classifiers=[

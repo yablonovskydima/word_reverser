@@ -1,5 +1,5 @@
 import unittest
-from reverse_words_package.reverse_words import reverse_words
+from word_reverser.reverse_words import reverse_words
 
 class TestReverseWords(unittest.TestCase):
 
